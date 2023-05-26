@@ -52,7 +52,7 @@ struct QuestionView<Content: View>: View {
                                 question.possibleAnswers[index].disabled = true
                             }
                         } label: {
-                            QuadButton(text: question.possibleAnswers[index].text, Icon: nil, disabled: question.possibleAnswers[index].disabled)
+                            QuadButton(text: question.possibleAnswers[index].text, Icon: nil, variant: question.possibleAnswers[index].disabled ? .danger : .normal)
                         }
                         .disabled(question.possibleAnswers[index].disabled)
                     }
