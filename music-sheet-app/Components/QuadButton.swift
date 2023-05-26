@@ -7,30 +7,62 @@
 
 import SwiftUI
 
+
 struct QuadButton: View {
     
+    enum Variants {
+        case normal
+        case danger
+    }
+    
     var text: String
-    var Icon: Image
+    var Icon: Image?
+    var disabled = false
+    var variant: Variants = .normal
     
     var body: some View {
         VStack {
-            Icon
-                .font(.system(size: 24))
-                .padding(.bottom, 7)
-                .foregroundColor(Color("primary-light"))
+            if Icon != nil {
+                Icon
+                    .font(.system(size: 24))
+                    .padding(.bottom, 7)
+            }
             Text(text)
                 .font(.system(size: 16))
         }
         .frame(width: 129, height: 78)
-        .background(Color("primary"))
-        .foregroundColor(Color("white"))
+        .background(disabled ? Color("gray") : getBackgroundColor())
+        .foregroundColor(disabled ? Color("gray-light") : getForegroundColor())
         .cornerRadius(3)
         .shadow(radius: 4)
+    }
+    
+    func getBackgroundColor() -> Color {
+        switch(variant) {
+        case .normal :
+            return Color("primary")
+        case .danger:
+            return Color("danger")
+        }
+    }
+    
+    func getForegroundColor() -> Color {
+        switch(variant) {
+        case .normal :
+            return Color("primary-light")
+        case .danger:
+            return Color("danger-light")
+        }
     }
 }
 
 struct QuadButton_Previews: PreviewProvider {
     static var previews: some View {
-        QuadButton(text: "Teste", Icon: Image(systemName: "pencil.and.outline"))
+        VStack {
+            QuadButton(text: "Teste", Icon: Image(systemName: "pencil.and.outline"))
+            QuadButton(text: "Teste", Icon: Image(systemName: "pencil.and.outline"), disabled: true)
+            QuadButton(text: "Teste", Icon: Image(systemName: "pencil.and.outline"), variant: .danger)
+            
+        }
     }
 }

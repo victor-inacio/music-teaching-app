@@ -11,7 +11,7 @@ import SwiftUI
 struct music_sheet_appApp: App {
     var body: some Scene {
         WindowGroup {
-            MusicSheet(clef: Clef.g)
+            MainScreen()
         }
     }
 }

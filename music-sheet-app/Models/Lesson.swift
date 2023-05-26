@@ -7,11 +7,29 @@
 
 import SwiftUI
 
-struct Lesson: Hashable, Identifiable {
+class LessonsViewModel: ObservableObject, Identifiable {
     let id: UUID = UUID()
-    let name: String
-    let percentage: Int
+    
+    @Published var allLessons: [Lesson]
+    
+    init(allLessons: [Lesson]) {
+        self.allLessons = allLessons
+    }
+}
+
+class Lesson: Hashable, Identifiable, ObservableObject {
+    let id: UUID = UUID()
+    @Published var name: String
+    @Published var percentage: Int
     let link: AnyView
+    let image: Image?
+    
+    init(name: String, percentage: Int, link: AnyView, image: Image?) {
+        self.name = name
+        self.percentage = percentage
+        self.link = link
+        self.image = image
+    }
     
     func hash(into hasher: inout Hasher) {
         hasher.combine(id)
@@ -21,40 +39,8 @@ struct Lesson: Hashable, Identifiable {
         return lhs.id == rhs.id
     }
     
-    static let all: [Lesson] = [
-        
-        .init(name: "Elementos Básicos da Partitura", percentage: 0, link: AnyView(
-            NavigationLink {
-                NavigationLink {
-                    NavigationLink {
-                        NavigationLink {
-                            NavigationLink {
-                                
-                            } label: {
-                                Lesson1_Slide5()
-                            }
-
-                        } label: {
-                            Lesson1_Slide4()
-                        }
-
-                    } label: {
-                        Lesson1_Slide3()
-                    }
-
-                } label: {
-                    Lesson1_Slide2()
-                        .background(.white)
-                }
-                .buttonStyle(PlainButtonStyle())
-            } label: {
-                Lesson1_Slide1()
-                    .background(.white)
-            }
-            .buttonStyle(PlainButtonStyle())
-            .frame(minHeight: 0, maxHeight: .infinity)
-        ))
-        
-    ]
+    func changePercentage(_ percentage: Int) -> Void {
+        self.percentage = percentage
+    }
 }
 

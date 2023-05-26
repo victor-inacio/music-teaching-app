@@ -8,11 +8,16 @@
 import SwiftUI
 
 struct Lesson1_Slide1: View {
+    
+
+    
     var body: some View {
         SlideView("Para se ter um bom entendimento da partitura, é necessário antes saber um pouco sobre os elementos básicos da partitura, que serão apresentados nos slides seguintes.") {
             EmptyView()
         }
+        
     }
+    
 }
 
 struct Lesson1_Slide2: View {
@@ -47,6 +52,7 @@ struct Lesson1_Slide3: View {
         .onAppear {
             show = true
         }
+
     }
 }
 
