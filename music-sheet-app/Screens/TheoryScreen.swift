@@ -17,7 +17,7 @@ struct TheoryScreen: View {
                        AnyView(Lesson1_Slide3()),
                        AnyView(Lesson1_Slide4()),
                        AnyView(Lesson1_Slide5()),
-                       AnyView(QuestionView(question: Question(question: "Testeaedewfewf ?", possibleAnswers: [
+                       AnyView(QuestionView(question: Question(question: "Quais são as duas claves mais importantes para um pianista ler a partitura?", possibleAnswers: [
                         .init(text: "C e F"),
                         .init(text: "G e B"),
                         .init(text: "A e E"),
