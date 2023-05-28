@@ -28,7 +28,8 @@ struct QuadButton: View {
                     .padding(.bottom, 7)
             }
             Text(text)
-                .font(.system(size: 16))
+                .font(Font.custom("CrimsonPro-SemiBold", size: 16))
+                .foregroundColor(.white)
         }
         .frame(width: 129, height: 78)
         .background(disabled ? Color("gray") : getBackgroundColor())

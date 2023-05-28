@@ -50,13 +50,13 @@ struct TheoryScreen: View {
                 ForEach(lessons, id: \.id) { lesson in
                     NavigationLink {
                         LessonSlide(lesson: lesson)
-                        
                     } label: {
                         LessonButton(lesson: lesson, icon: lesson.image)
                     }
                     
                 }
             }
+            .navigationTitle("Teoria")
         }
         .padding(.horizontal, 10)
     }

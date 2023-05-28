@@ -33,12 +33,13 @@ struct LessonButton: View {
                     }
                     .frame(minWidth: 50, maxWidth: 50)
                     Text(lesson.name)
+                        .font(Font.custom("CrimsonPro-Regular", size: 20))
                         .foregroundColor(disabled ? Color("primary") : .white)
                 }
                 Spacer()
                 ZStack {
                     Text(String(lesson.percentage) + "%")
-                        .font(.system(size: 12))
+                        .font(Font.custom("CrimsonPro-Regular", size: 12))
                         .animation(.easeInOut(duration: 2), value: lesson.percentage)
                     Circle().stroke(.gray, lineWidth: 2)
                     Circle()
@@ -68,6 +69,7 @@ struct LessonButton: View {
                             Image(systemName: "lock.fill")
                                 .foregroundColor(Color.init(hex: "FFBF1B"))
                             Text("Termine a aula anterior para ter acesso a esta")
+                                .font(Font.custom("CrimsonPro-Regular", size: 16))
                                 .foregroundColor(.white)
                         }
                     }
@@ -84,7 +86,7 @@ struct LessonButton_Test: View {
         
     }), image: Image("g-clef"))
     var body: some View {
-        LessonButton(lesson: lesson, disabled: false, icon: Image("g-clef"))
+        LessonButton(lesson: lesson, disabled: true, icon: Image("g-clef"))
             .onAppear {
                 lesson.percentage = 100
             }

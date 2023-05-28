@@ -193,14 +193,14 @@ struct SlideView<Content: View>: View {
             GeometryReader { geometry in
                 VStack {
                     Text(text)
+                        .font(Font.custom("CrimsonPro-SemiBold", size: 20))
                         .foregroundColor(.white)
-                        .font(.title3)
                 }
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .padding()
                 .background(Color("primary-light"))
                 .border(Color("primary"), width: 3)
-                .cornerRadius(3)
+                .cornerRadius(8)
                 .padding(.horizontal)
             }
             

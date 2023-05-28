@@ -13,8 +13,23 @@
 		9804A8C72A1401C000BAEB59 /* Lesson1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804A8C62A1401C000BAEB59 /* Lesson1.swift */; };
 		9804A8C92A1407FF00BAEB59 /* MusicSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9804A8C82A1407FF00BAEB59 /* MusicSheet.swift */; };
 		98356B4A2A1E6185006A0A28 /* LessonSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98356B492A1E6185006A0A28 /* LessonSlide.swift */; };
+		984A5CF92A22DD4C00221E8E /* CrimsonPro-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDC2A22DD2900221E8E /* CrimsonPro-BlackItalic.ttf */; };
+		984A5CFA2A22DD4C00221E8E /* CrimsonPro-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CD92A22DD2900221E8E /* CrimsonPro-ExtraBold.ttf */; };
+		984A5CFB2A22DD4C00221E8E /* CrimsonPro-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDF2A22DD2900221E8E /* CrimsonPro-ExtraLightItalic.ttf */; };
+		984A5CFC2A22DD4C00221E8E /* CrimsonPro-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE32A22DD2900221E8E /* CrimsonPro-SemiBoldItalic.ttf */; };
+		984A5CFD2A22DD4C00221E8E /* CrimsonPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDB2A22DD2900221E8E /* CrimsonPro-Regular.ttf */; };
+		984A5CFE2A22DD4C00221E8E /* CrimsonPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE12A22DD2900221E8E /* CrimsonPro-Light.ttf */; };
+		984A5CFF2A22DD4C00221E8E /* CrimsonPro-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE22A22DD2900221E8E /* CrimsonPro-ExtraLight.ttf */; };
+		984A5D002A22DD4C00221E8E /* CrimsonPro-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDD2A22DD2900221E8E /* CrimsonPro-BoldItalic.ttf */; };
+		984A5D012A22DD4C00221E8E /* CrimsonPro-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE52A22DD2900221E8E /* CrimsonPro-MediumItalic.ttf */; };
+		984A5D022A22DD4C00221E8E /* CrimsonPro-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDE2A22DD2900221E8E /* CrimsonPro-SemiBold.ttf */; };
+		984A5D032A22DD4C00221E8E /* CrimsonPro-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE72A22DD2900221E8E /* CrimsonPro-Bold.ttf */; };
+		984A5D042A22DD4C00221E8E /* CrimsonPro-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE82A22DD2900221E8E /* CrimsonPro-Italic.ttf */; };
+		984A5D052A22DD4C00221E8E /* CrimsonPro-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE42A22DD2900221E8E /* CrimsonPro-Black.ttf */; };
+		984A5D062A22DD4C00221E8E /* CrimsonPro-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE62A22DD2900221E8E /* CrimsonPro-ExtraBoldItalic.ttf */; };
+		984A5D072A22DD4C00221E8E /* CrimsonPro-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CE02A22DD2900221E8E /* CrimsonPro-LightItalic.ttf */; };
+		984A5D082A22DD4C00221E8E /* CrimsonPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 984A5CDA2A22DD2900221E8E /* CrimsonPro-Medium.ttf */; };
 		98771FD52A154C87004F4A8C /* Clef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98771FD42A154C87004F4A8C /* Clef.swift */; };
-		9883EA812A2012DB00915305 /* ASD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9883EA802A2012DB00915305 /* ASD.swift */; };
 		9885B3EA2A15677D004AA5B6 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885B3E92A15677D004AA5B6 /* SlideView.swift */; };
 		98A328BF2A1AF91C0030708F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A328BE2A1AF91C0030708F /* Test.swift */; };
 		98A328C12A1AFEE00030708F /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A328C02A1AFEE00030708F /* Lesson.swift */; };
@@ -33,8 +48,24 @@
 		9804A8C62A1401C000BAEB59 /* Lesson1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson1.swift; sourceTree = "<group>"; };
 		9804A8C82A1407FF00BAEB59 /* MusicSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicSheet.swift; sourceTree = "<group>"; };
 		98356B492A1E6185006A0A28 /* LessonSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonSlide.swift; sourceTree = "<group>"; };
+		984A5CD92A22DD2900221E8E /* CrimsonPro-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-ExtraBold.ttf"; sourceTree = "<group>"; };
+		984A5CDA2A22DD2900221E8E /* CrimsonPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Medium.ttf"; sourceTree = "<group>"; };
+		984A5CDB2A22DD2900221E8E /* CrimsonPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Regular.ttf"; sourceTree = "<group>"; };
+		984A5CDC2A22DD2900221E8E /* CrimsonPro-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-BlackItalic.ttf"; sourceTree = "<group>"; };
+		984A5CDD2A22DD2900221E8E /* CrimsonPro-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-BoldItalic.ttf"; sourceTree = "<group>"; };
+		984A5CDE2A22DD2900221E8E /* CrimsonPro-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-SemiBold.ttf"; sourceTree = "<group>"; };
+		984A5CDF2A22DD2900221E8E /* CrimsonPro-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		984A5CE02A22DD2900221E8E /* CrimsonPro-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-LightItalic.ttf"; sourceTree = "<group>"; };
+		984A5CE12A22DD2900221E8E /* CrimsonPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Light.ttf"; sourceTree = "<group>"; };
+		984A5CE22A22DD2900221E8E /* CrimsonPro-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-ExtraLight.ttf"; sourceTree = "<group>"; };
+		984A5CE32A22DD2900221E8E /* CrimsonPro-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		984A5CE42A22DD2900221E8E /* CrimsonPro-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Black.ttf"; sourceTree = "<group>"; };
+		984A5CE52A22DD2900221E8E /* CrimsonPro-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-MediumItalic.ttf"; sourceTree = "<group>"; };
+		984A5CE62A22DD2900221E8E /* CrimsonPro-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		984A5CE72A22DD2900221E8E /* CrimsonPro-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Bold.ttf"; sourceTree = "<group>"; };
+		984A5CE82A22DD2900221E8E /* CrimsonPro-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CrimsonPro-Italic.ttf"; sourceTree = "<group>"; };
+		984A5D0B2A22F7EC00221E8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		98771FD42A154C87004F4A8C /* Clef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clef.swift; sourceTree = "<group>"; };
-		9883EA802A2012DB00915305 /* ASD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASD.swift; sourceTree = "<group>"; };
 		9885B3E92A15677D004AA5B6 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 		98A328BE2A1AF91C0030708F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		98A328C02A1AFEE00030708F /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
@@ -77,7 +108,6 @@
 				9885B3E92A15677D004AA5B6 /* SlideView.swift */,
 				98B685DC2A1D2DF5004AE8D2 /* QuestionView.swift */,
 				98B3BC502A1D41780016113F /* Slideshow.swift */,
-				9883EA802A2012DB00915305 /* ASD.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -88,6 +118,37 @@
 				9804A8C62A1401C000BAEB59 /* Lesson1.swift */,
 			);
 			path = Slides;
+			sourceTree = "<group>";
+		};
+		984A5CD72A22DD1700221E8E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				984A5CD82A22DD1F00221E8E /* CrimsonPro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		984A5CD82A22DD1F00221E8E /* CrimsonPro */ = {
+			isa = PBXGroup;
+			children = (
+				984A5CE42A22DD2900221E8E /* CrimsonPro-Black.ttf */,
+				984A5CDC2A22DD2900221E8E /* CrimsonPro-BlackItalic.ttf */,
+				984A5CE72A22DD2900221E8E /* CrimsonPro-Bold.ttf */,
+				984A5CDD2A22DD2900221E8E /* CrimsonPro-BoldItalic.ttf */,
+				984A5CD92A22DD2900221E8E /* CrimsonPro-ExtraBold.ttf */,
+				984A5CE62A22DD2900221E8E /* CrimsonPro-ExtraBoldItalic.ttf */,
+				984A5CE22A22DD2900221E8E /* CrimsonPro-ExtraLight.ttf */,
+				984A5CDF2A22DD2900221E8E /* CrimsonPro-ExtraLightItalic.ttf */,
+				984A5CE82A22DD2900221E8E /* CrimsonPro-Italic.ttf */,
+				984A5CE12A22DD2900221E8E /* CrimsonPro-Light.ttf */,
+				984A5CE02A22DD2900221E8E /* CrimsonPro-LightItalic.ttf */,
+				984A5CDA2A22DD2900221E8E /* CrimsonPro-Medium.ttf */,
+				984A5CE52A22DD2900221E8E /* CrimsonPro-MediumItalic.ttf */,
+				984A5CDB2A22DD2900221E8E /* CrimsonPro-Regular.ttf */,
+				984A5CDE2A22DD2900221E8E /* CrimsonPro-SemiBold.ttf */,
+				984A5CE32A22DD2900221E8E /* CrimsonPro-SemiBoldItalic.ttf */,
+			);
+			path = CrimsonPro;
 			sourceTree = "<group>";
 		};
 		98771FD32A154C79004F4A8C /* Models */ = {
@@ -118,6 +179,8 @@
 		98EEF1DA2A11DDA30092E388 /* music-sheet-app */ = {
 			isa = PBXGroup;
 			children = (
+				984A5D0B2A22F7EC00221E8E /* Info.plist */,
+				984A5CD72A22DD1700221E8E /* Fonts */,
 				98771FD32A154C79004F4A8C /* Models */,
 				9804A8C52A14019B00BAEB59 /* Slides */,
 				9804A8BC2A12CF6600BAEB59 /* Components */,
@@ -196,8 +259,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984A5CFD2A22DD4C00221E8E /* CrimsonPro-Regular.ttf in Resources */,
+				984A5CFE2A22DD4C00221E8E /* CrimsonPro-Light.ttf in Resources */,
+				984A5D042A22DD4C00221E8E /* CrimsonPro-Italic.ttf in Resources */,
+				984A5D072A22DD4C00221E8E /* CrimsonPro-LightItalic.ttf in Resources */,
+				984A5CF92A22DD4C00221E8E /* CrimsonPro-BlackItalic.ttf in Resources */,
+				984A5CFB2A22DD4C00221E8E /* CrimsonPro-ExtraLightItalic.ttf in Resources */,
 				98EEF1E32A11DDA40092E388 /* Preview Assets.xcassets in Resources */,
+				984A5CFA2A22DD4C00221E8E /* CrimsonPro-ExtraBold.ttf in Resources */,
 				98EEF1E02A11DDA40092E388 /* Assets.xcassets in Resources */,
+				984A5D032A22DD4C00221E8E /* CrimsonPro-Bold.ttf in Resources */,
+				984A5D052A22DD4C00221E8E /* CrimsonPro-Black.ttf in Resources */,
+				984A5D022A22DD4C00221E8E /* CrimsonPro-SemiBold.ttf in Resources */,
+				984A5CFC2A22DD4C00221E8E /* CrimsonPro-SemiBoldItalic.ttf in Resources */,
+				984A5D012A22DD4C00221E8E /* CrimsonPro-MediumItalic.ttf in Resources */,
+				984A5CFF2A22DD4C00221E8E /* CrimsonPro-ExtraLight.ttf in Resources */,
+				984A5D062A22DD4C00221E8E /* CrimsonPro-ExtraBoldItalic.ttf in Resources */,
+				984A5D002A22DD4C00221E8E /* CrimsonPro-BoldItalic.ttf in Resources */,
+				984A5D082A22DD4C00221E8E /* CrimsonPro-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,7 +290,6 @@
 				98EEF1DE2A11DDA30092E388 /* MainScreen.swift in Sources */,
 				9804A8C22A13F21200BAEB59 /* LessonButton.swift in Sources */,
 				9804A8BE2A12CF8F00BAEB59 /* QuadButton.swift in Sources */,
-				9883EA812A2012DB00915305 /* ASD.swift in Sources */,
 				98B3BC512A1D41780016113F /* Slideshow.swift in Sources */,
 				9804A8C92A1407FF00BAEB59 /* MusicSheet.swift in Sources */,
 				98356B4A2A1E6185006A0A28 /* LessonSlide.swift in Sources */,
@@ -354,6 +432,7 @@
 				DEVELOPMENT_TEAM = M67J2XKW43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "music-sheet-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -383,6 +462,7 @@
 				DEVELOPMENT_TEAM = M67J2XKW43;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "music-sheet-app/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
