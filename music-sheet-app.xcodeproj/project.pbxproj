@@ -33,6 +33,7 @@
 		9885B3EA2A15677D004AA5B6 /* SlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9885B3E92A15677D004AA5B6 /* SlideView.swift */; };
 		98A328BF2A1AF91C0030708F /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A328BE2A1AF91C0030708F /* Test.swift */; };
 		98A328C12A1AFEE00030708F /* Lesson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A328C02A1AFEE00030708F /* Lesson.swift */; };
+		98B168622A24677C00F063ED /* Lesson2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B168612A24677C00F063ED /* Lesson2.swift */; };
 		98B3BC512A1D41780016113F /* Slideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B3BC502A1D41780016113F /* Slideshow.swift */; };
 		98B685DD2A1D2DF5004AE8D2 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98B685DC2A1D2DF5004AE8D2 /* QuestionView.swift */; };
 		98EEF1DC2A11DDA30092E388 /* music_sheet_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98EEF1DB2A11DDA30092E388 /* music_sheet_appApp.swift */; };
@@ -69,6 +70,7 @@
 		9885B3E92A15677D004AA5B6 /* SlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideView.swift; sourceTree = "<group>"; };
 		98A328BE2A1AF91C0030708F /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		98A328C02A1AFEE00030708F /* Lesson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson.swift; sourceTree = "<group>"; };
+		98B168612A24677C00F063ED /* Lesson2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lesson2.swift; sourceTree = "<group>"; };
 		98B3BC502A1D41780016113F /* Slideshow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slideshow.swift; sourceTree = "<group>"; };
 		98B685DC2A1D2DF5004AE8D2 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		98EEF1D82A11DDA30092E388 /* music-sheet-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music-sheet-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				9804A8C62A1401C000BAEB59 /* Lesson1.swift */,
+				98B168612A24677C00F063ED /* Lesson2.swift */,
 			);
 			path = Slides;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				98B3BC512A1D41780016113F /* Slideshow.swift in Sources */,
 				9804A8C92A1407FF00BAEB59 /* MusicSheet.swift in Sources */,
 				98356B4A2A1E6185006A0A28 /* LessonSlide.swift in Sources */,
+				98B168622A24677C00F063ED /* Lesson2.swift in Sources */,
 				98B685DD2A1D2DF5004AE8D2 /* QuestionView.swift in Sources */,
 				9804A8C72A1401C000BAEB59 /* Lesson1.swift in Sources */,
 				9804A8C42A14001200BAEB59 /* TheoryScreen.swift in Sources */,
